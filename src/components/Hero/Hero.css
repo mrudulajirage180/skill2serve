@@ -1,0 +1,65 @@
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding: 0 20px;
+
+ background: linear-gradient(to right,#ad8de2,#ea33b0);
+}
+
+.hero h1 {
+  font-size: 52px;
+  color: #91f8e5;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  width: 70%;
+  font-size: 20px;
+  color: #050505;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.worker-btn,
+.ngo-btn {
+  padding: 15px 35px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.worker-btn {
+  background-color: #f6a132;
+  color: rgb(0, 0, 0);
+  border: 1px solid #585656;
+  border-radius:5px;
+}
+
+.ngo-btn {
+  background-color: rgb(243, 152, 55);
+  color: #000000;
+  border: 1px solid #585656;
+  border-radius:5px;
+}
+
+.worker-btn:hover {
+  background-color: #9f65ae;
+  color: white;
+}
+
+.ngo-btn:hover {
+  background-color: #9f65ae;
+  color: white;
+}
