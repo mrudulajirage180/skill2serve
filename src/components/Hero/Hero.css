@@ -8,26 +8,30 @@
   text-align: center;
   padding: 0 20px;
 
- background: linear-gradient(to right,#ad8de2,#ea33b0);
+ background: #F8FAFC;
 }
 
-.hero h1 {
-  font-size: 52px;
-  color: #91f8e5;
-  margin-bottom: 20px;
+.hero h1{
+    font-size: 64px;
+    font-weight: 800;
+    color: #1E3A8A;
+    line-height: 1.2;
+    margin-bottom: 25px;
+    max-width: 900px;
 }
 
-.hero p {
-  width: 70%;
-  font-size: 20px;
-  color: #050505;
-  line-height: 1.8;
-  margin-bottom: 40px;
+.hero p{
+    font-size: 22px;
+    color: #475569;
+    max-width: 700px;
+    line-height: 1.7;
+    margin-bottom: 40px;
 }
 
-.hero-buttons {
-  display: flex;
-  gap: 20px;
+.hero-buttons{
+    display:flex;
+    gap:20px;
+    margin-top:20px;
 }
 
 .worker-btn,
@@ -40,26 +44,34 @@
   transition: 0.3s;
 }
 
-.worker-btn {
-  background-color: #f6a132;
-  color: rgb(0, 0, 0);
-  border: 1px solid #585656;
-  border-radius:5px;
+.worker-btn{
+    background:#2563EB;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    font-size:18px;
+    border-radius:10px;
+    cursor:pointer;
+    transition:0.3s;
 }
 
-.ngo-btn {
-  background-color: rgb(243, 152, 55);
-  color: #000000;
-  border: 1px solid #585656;
-  border-radius:5px;
+.ngo-btn{
+    background:#F59E0B;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    font-size:18px;
+    border-radius:10px;
+    cursor:pointer;
+    transition:0.3s;
 }
 
-.worker-btn:hover {
-  background-color: #9f65ae;
-  color: white;
+.worker-btn:hover{
+    background:#1D4ED8;
+    transform:translateY(-3px);
 }
 
-.ngo-btn:hover {
-  background-color: #9f65ae;
-  color: white;
+.ngo-btn:hover{
+    background:#D97706;
+    transform:translateY(-3px);
 }
