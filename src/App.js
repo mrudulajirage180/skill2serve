@@ -1,17 +1,23 @@
-import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import About from "./components/About/About";
-import HowItWorks from "./components/HowItWorks/HowItWorks";
-import Impact from "./components/Impact/Impact";
+import { Routes, Route } from "react-router-dom";
+
+// Pages
+import Home from "./pages/Home/Home";
+import WorkerRegister from "./pages/WorkerRegister/WorkerRegister";
+import NGORegister from "./pages/NGORegister/NGORegister";
+import Login from "./pages/Login/Login";
+import Contact from "./pages/Contact/Contact";
+import Services from "./pages/Services/Services";
+
 function App() {
   return (
-    <>
-  <Navbar />
-  <Hero />
-  <About />
-  <HowItWorks />
-  <Impact />
-</>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/worker-register" element={<WorkerRegister />} />
+      <Route path="/ngo-register" element={<NGORegister />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/services" element={<Services />} />
+    </Routes>
   );
 }
 

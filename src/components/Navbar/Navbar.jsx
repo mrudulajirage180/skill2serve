@@ -1,26 +1,34 @@
 import "./Navbar.css";
+import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 
 function Navbar() {
   return (
     <nav className="navbar">
 
       <div className="logo">
-        Skill2Serve
+        <Link to="/" className="logo">
+         Skill2Serve
+        </Link>
       </div>
 
       <ul className="nav-links">
-
-        <li>Home</li>
-
-        <li>About</li>
-
-        <li>Services</li>
-
-        <li>Contact</li>
-
-        <li>Login</li>
-
-      </ul>
+  <li><Link to="/">Home</Link></li>
+  <li>
+  <ScrollLink
+    to="about"
+    smooth={true}
+    duration={500}
+    offset={0}
+    style={{ cursor: "pointer" }}
+  >
+    About
+  </ScrollLink>
+</li>
+  <li><Link to="/services">Services</Link></li>
+  <li><Link to="/contact">Contact</Link></li>
+  <li><Link to="/login">Login</Link></li>
+</ul>
 
     </nav>
   );

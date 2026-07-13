@@ -35,3 +35,19 @@
 .nav-links li:hover{
     color:#F59E0B;
 }
+
+.logo-link{
+    text-decoration:none;
+    color:white;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    font-weight:600;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#F59E0B;
+}
