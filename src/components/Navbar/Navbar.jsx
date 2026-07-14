@@ -8,7 +8,7 @@ function Navbar() {
 
       <div className="logo">
         <Link to="/" className="logo">
-         Skill2Serve
+                     Skill2Serve
         </Link>
       </div>
 

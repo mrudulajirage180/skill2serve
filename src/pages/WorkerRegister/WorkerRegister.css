@@ -1,0 +1,110 @@
+.worker-page{
+    min-height:100vh;
+    background:#F8FAFC;
+    padding:100px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+.worker-card{
+    width:100%;
+    max-width:950px;
+    background:#FFFFFF;
+    border-radius:20px;
+    padding:45px;
+
+    border:1px solid #E2E8F0;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.worker-card h1{
+    color:#1E3A8A;
+    font-size:42px;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.worker-card > p{
+    text-align:center;
+    color:#64748B;
+    font-size:18px;
+    margin-bottom:45px;
+}
+
+.form-section{
+    margin-bottom:40px;
+    padding-bottom:30px;
+    border-bottom:1px solid #E2E8F0;
+}
+
+.form-section:last-child{
+    border-bottom:none;
+}
+
+.form-section h2{
+    color:#1E3A8A;
+    font-size:24px;
+    margin-bottom:25px;
+}
+
+.form-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+}
+
+.form-group{
+    display:flex;
+    flex-direction:column;
+}
+
+.form-group label{
+    font-weight:600;
+    color:#1E3A8A;
+    margin-bottom:8px;
+}
+
+.form-group input,
+.form-group select{
+    padding:15px;
+    border:1px solid #CBD5E1;
+    border-radius:10px;
+    font-size:16px;
+    outline:none;
+    transition:.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus{
+    border-color:#2563EB;
+    box-shadow:0 0 8px rgba(37,99,235,.15);
+}
+
+.location-btn{
+
+    margin-top:25px;
+
+    background:#2563EB;
+
+    color:white;
+
+    border:none;
+
+    padding:14px 22px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    transition:.3s;
+}
+
+.location-btn:hover{
+
+    background:#F59E0B;
+
+}
