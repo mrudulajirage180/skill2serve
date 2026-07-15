@@ -1,6 +1,8 @@
 import "./WorkerRegister.css";
 import Navbar from "../../components/Navbar/Navbar";
 
+
+
 function WorkerRegister() {
   return (
     <>
@@ -126,13 +128,71 @@ function WorkerRegister() {
 
 </div>
 
-            {/* Skills */}
+   {/* Work Category */}
 
-            <div className="form-section">
+<div className="form-section">
 
-              <h2>Skills</h2>
+  <h2>💼 Work Category</h2>
 
-            </div>
+  <p className="section-text">
+    Select one or more categories you are interested in.
+  </p>
+
+  <div className="category-grid">
+
+    <div className="category-card">
+      🏗
+      <h3>Construction & Technical</h3>
+    </div>
+
+    <div className="category-card">
+      🏠
+      <h3>Home Services</h3>
+    </div>
+
+    <div className="category-card">
+      🛒
+      <h3>Retail & Shops</h3>
+    </div>
+
+    <div className="category-card">
+      🍽
+      <h3>Hotels & Restaurants</h3>
+    </div>
+
+    <div className="category-card">
+      🌾
+      <h3>Agriculture</h3>
+    </div>
+
+    <div className="category-card">
+      🏭
+      <h3>Factory & Warehouse</h3>
+    </div>
+
+    <div className="category-card">
+      🚚
+      <h3>Driving & Transport</h3>
+    </div>
+
+    <div className="category-card">
+      🏢
+      <h3>Office Support</h3>
+    </div>
+
+    <div className="category-card">
+      🏥
+      <h3>Healthcare Support</h3>
+    </div>
+
+    <div className="category-card">
+      📚
+      <h3>Education & Community</h3>
+    </div>
+
+  </div>
+
+</div>
 
             {/* Experience */}
 
