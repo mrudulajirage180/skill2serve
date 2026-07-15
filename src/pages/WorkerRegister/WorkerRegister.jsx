@@ -2,7 +2,6 @@ import "./WorkerRegister.css";
 import Navbar from "../../components/Navbar/Navbar";
 
 
-
 function WorkerRegister() {
   return (
     <>
