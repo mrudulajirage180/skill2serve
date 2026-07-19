@@ -1,0 +1,43 @@
+.ngo-register-page {
+  min-height: 100vh;
+  background: #f5f7fb;
+  padding: 40px 20px;
+}
+
+.ngo-register-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.page-header h1 {
+  font-size: 36px;
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.page-header p {
+  font-size: 17px;
+  color: #6b7280;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .ngo-register-page {
+    padding: 25px 15px;
+  }
+
+  .page-header h1 {
+    font-size: 28px;
+  }
+
+  .page-header p {
+    font-size: 15px;
+  }
+}
